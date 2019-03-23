@@ -6,10 +6,10 @@
 ```C
   int identical( int a[], int b[], unsigned int len );
 ```
-* Arrays a and b are both of length len, and contain arbitrary integer values.
-* The function identical() should return 1 iff arrays a and b contain the same values in the same order, or 0 otherwise.
-* len can have any unsigned int value, including 0.
-* If len is 0 then identical() should return 1 (since the arrays have the same - empty - contents).
+* Arrays `a` and `b` are both of length `len`, and contain arbitrary integer values.
+* The function `identical()` should return 1 if and only if arrays `a`and `b` contain the same values in the same order, or 0 otherwise.
+* `len` can have any unsigned integer value, including 0.
+* If `len` is 0 then `identical()` should return 1 (since the arrays have the empty contents).
 * You must not change the contents of the arrays.
 
 ## Example
